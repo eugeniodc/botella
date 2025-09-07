@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 
@@ -20,7 +21,7 @@ export function SocialProofSection() {
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <img src="/female-hiker-portrait-smiling.jpg" alt="Ana testimonial" className="w-15 h-15 rounded-full" />
+                <Image src="/female-hiker-portrait-smiling.jpg" alt="Ana testimonial" width={60} height={60} className="w-15 h-15 rounded-full" />
                 <div>
                   <h4 className="font-semibold">Ana Martínez</h4>
                   <p className="text-sm text-muted-foreground">Guía de montaña</p>
@@ -58,7 +59,7 @@ export function SocialProofSection() {
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <img src="/female-trail-runner-portrait-athletic.jpg" alt="María testimonial" className="w-15 h-15 rounded-full" />
+                <Image src="/female-trail-runner-portrait-athletic.jpg" alt="María testimonial" width={60} height={60} className="w-15 h-15 rounded-full" />
                 <div>
                   <h4 className="font-semibold">María López</h4>
                   <p className="text-sm text-muted-foreground">Trail runner</p>

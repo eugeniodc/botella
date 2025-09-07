@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mountain, CheckCircle } from "lucide-react";
 
@@ -39,11 +40,13 @@ export function ProblemSolutionSection() {
             </div>
           </div>
           <div className="relative">
-            <img
-              src="/collapsible-water-bottle-before-after-comparison-h.jpg"
-              alt="VertexBottle comparación plegable"
-              className="w-full rounded-lg shadow-lg"
-            />
+<Image
+               src="/collapsible-water-bottle-before-after-comparison-h.jpg"
+               alt="VertexBottle comparación plegable"
+               width={400}
+               height={300}
+               className="w-full rounded-lg shadow-lg"
+             />
           </div>
         </div>
       </div>

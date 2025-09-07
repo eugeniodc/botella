@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function HowItWorksSection() {
   return (
     <section className="py-20 px-4 bg-muted/30">
@@ -12,11 +14,13 @@ export function HowItWorksSection() {
             <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary-foreground text-2xl font-bold">
               1
             </div>
-            <img
-              src="/water-bottle-being-filled-with-water-outdoor-setti.jpg"
-              alt="Llenar VertexBottle"
-              className="w-full max-w-sm mx-auto rounded-lg mb-6"
-            />
+<Image
+               src="/water-bottle-being-filled-with-water-outdoor-setti.jpg"
+               alt="Llenar VertexBottle"
+               width={400}
+               height={300}
+               className="w-full max-w-sm mx-auto rounded-lg mb-6"
+             />
             <h3 className="text-xl font-semibold mb-4">Llena</h3>
             <p className="text-muted-foreground">
               Capacidad de 750ml para mantenerte hidratado durante toda tu aventura.
@@ -26,11 +30,13 @@ export function HowItWorksSection() {
             <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary-foreground text-2xl font-bold">
               2
             </div>
-            <img
-              src="/person-drinking-from-collapsible-water-bottle-moun.jpg"
-              alt="Beber de VertexBottle"
-              className="w-full max-w-sm mx-auto rounded-lg mb-6"
-            />
+<Image
+               src="/person-drinking-from-collapsible-water-bottle-moun.jpg"
+               alt="Beber de VertexBottle"
+               width={400}
+               height={300}
+               className="w-full max-w-sm mx-auto rounded-lg mb-6"
+             />
             <h3 className="text-xl font-semibold mb-4">Bebe</h3>
             <p className="text-muted-foreground">
               Disfruta de tu bebida en cualquier lugar con la boquilla ergonómica de fácil acceso.
