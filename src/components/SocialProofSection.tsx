@@ -40,7 +40,7 @@ export function SocialProofSection() {
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <img src="/male-mountaineer-portrait-outdoor.jpg" alt="Carlos testimonial" className="w-15 h-15 rounded-full" />
+                <Image src="/male-mountaineer-portrait-outdoor.jpg" alt="Carlos testimonial" width={60} height={60} className="w-15 h-15 rounded-full" />
                 <div>
                   <h4 className="font-semibold">Carlos Ruiz</h4>
                   <p className="text-sm text-muted-foreground">Montañista</p>

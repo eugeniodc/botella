@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
 import { Mountain, CheckCircle } from "lucide-react";
 
 export function ProblemSolutionSection() {
