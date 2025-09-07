@@ -46,11 +46,13 @@ export function HowItWorksSection() {
             <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary-foreground text-2xl font-bold">
               3
             </div>
-            <img
-              src="/collapsible-water-bottle-folded-compact-size-compa.jpg"
-              alt="Plegar VertexBottle"
-              className="w-full max-w-sm mx-auto rounded-lg mb-6"
-            />
+<Image
+               src="/collapsible-water-bottle-folded-compact-size-compa.jpg"
+               alt="Plegar VertexBottle"
+               width={400}
+               height={300}
+               className="w-full max-w-sm mx-auto rounded-lg mb-6"
+             />
             <h3 className="text-xl font-semibold mb-4">Pliega</h3>
             <p className="text-muted-foreground">
               Compacta la botella y guárdala sin ocupar espacio. ¡Así de simple!
