@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle, Shield, Users } from "lucide-react";
 
 export function FinalCTASection() {
   return (
-    <section className="py-20 px-4 bg-primary text-primary-foreground">
+    <section className="py-20 px-4 bg-gradient-to-r from-orange-400 via-pink-400 to-yellow-300 text-primary-foreground">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">Prepárate para tu Próxima Aventura</h2>
         <p className="text-xl mb-8 opacity-90 text-pretty">

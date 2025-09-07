@@ -9,7 +9,7 @@ export function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url('/mountain-hiker-drinking-water-at-summit-sunrise-pa.jpg')` }}
       />
-      <div className="absolute inset-0 bg-primary/20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-700 via-teal-400 to-yellow-300 opacity-70" />
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <Badge className="mb-6 bg-accent text-accent-foreground px-4 py-2 text-sm font-medium">
           🏔️ Nuevo Producto de Aventura
