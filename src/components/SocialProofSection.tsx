@@ -32,7 +32,7 @@ export function SocialProofSection() {
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "¡La mejor botella que he tenido! Apenas ocupa espacio y es súper resistente. La he usado en el Annapurna y funcionó perfectamente."
+                &quot;¡La mejor botella que he tenido! Apenas ocupa espacio y es súper resistente. La he usado en el Annapurna y funcionó perfectamente.&quot;
               </p>
             </CardContent>
           </Card>
@@ -51,7 +51,7 @@ export function SocialProofSection() {
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "Increíble cómo se pliega. En expediciones largas, cada gramo cuenta. VertexBottle me ha dado más espacio para equipo esencial."
+                &quot;Increíble cómo se pliega. En expediciones largas, cada gramo cuenta. VertexBottle me ha dado más espacio para equipo esencial.&quot;
               </p>
             </CardContent>
           </Card>
@@ -70,7 +70,7 @@ export function SocialProofSection() {
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "Perfecta para trail running. No se mueve, no hace ruido y cuando termino, la guardo en el bolsillo. Genial diseño."
+                &quot;Perfecta para trail running. No se mueve, no hace ruido y cuando termino, la guardo en el bolsillo. Genial diseño.&quot;
               </p>
             </CardContent>
           </Card>
